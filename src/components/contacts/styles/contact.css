@@ -1,0 +1,32 @@
+.delete {
+  float: right;
+  cursor: pointer;
+  color: #212529;
+}
+
+.edit {
+  float: right;
+  cursor: pointer;
+  padding-right: 1rem;
+  color: #212529;
+}
+
+.delete:hover {
+  color: #e24f4f;
+  transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+.edit:hover {
+  color: #ffc107;
+  transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+.show:hover {
+  color: #28a745;
+  transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+.hide:hover {
+  color: #ffc107;
+  transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
